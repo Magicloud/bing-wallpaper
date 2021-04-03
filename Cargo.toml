@@ -1,0 +1,15 @@
+[package]
+name = "bing-wallpaper"
+version = "0.1.0"
+authors = ["magic"]
+edition = "2018"
+
+[dependencies]
+windows = "0.7.0"
+reqwest = { version = "0.11.2", features = ["blocking"] }
+sxd-document = "0.3.2"
+sxd-xpath = "0.4.2"
+futures = "0.3.13"
+
+[build-dependencies]
+windows = "0.7.0"
